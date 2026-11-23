@@ -1,4 +1,6 @@
 Priority	Model	Hugging Face checkpoint	Purpose
+
+
 P1	Qwen3.5-9B-Base	Qwen3.5-9B-Base	Original backbone
 P1	OmniEdu-9B	OmniEdu-9B	Educational SFT
 P1	Qwen2.5-7B-Instruct	Qwen2.5-7B-Instruct	Original backbone
