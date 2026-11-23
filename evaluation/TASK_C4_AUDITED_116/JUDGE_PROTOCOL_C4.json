@@ -1,0 +1,27 @@
+{
+  "judge_version": "C4-pilot",
+  "rating_fields": {
+    "lesson_relation_quality": "0 not linked / 1 juxtaposition or vague link / 2 explicit, correct and useful relationship",
+    "condition_adherence": "0 condition not followed / 1 condition followed: conceptual cases test meanings or distinctions; operational cases use a concrete source-grounded application scenario",
+    "lesson_kc_coverage": "list of KC IDs correctly and substantively addressed in lesson",
+    "qcm_kc_coverage": "list of KC IDs actually needed or substantively tested, supported by explanation",
+    "qcm_multi_kc_reasoning": "0 question solvable from one KC; 1 combines facts from at least two distinct KCs in a necessary reasoning step",
+    "qcm_necessity_ablations": "for every KC removal: sufficient_without_kc true/false/uncertain; all-KC necessity only if every removal fails, and no smaller subset suffices",
+    "factual_correctness": "0/1 for doctrinal correctness",
+    "answer_validity": "0/1 for exactly one defensible answer",
+    "pdf_grounding": "0/1 for claims and answer being supported by provided texts, with source pages"
+  },
+  "judge_instruction": "Do not infer necessity from kc_ids, namedrops, topical relevance or shared factual overlaps. Check possibility of solving from each strict subset using only supplied source. Mark uncertain if underdetermined; no certification without expert review.",
+  "primary_results": [
+    "lesson_relation_quality",
+    "condition_adherence",
+    "qcm_multi_kc_reasoning",
+    "qcm_kc_coverage",
+    "factual_correctness",
+    "answer_validity",
+    "pdf_grounding"
+  ],
+  "secondary_only": [
+    "all_KC_necessity_after_ablations_and_expert_review"
+  ]
+}

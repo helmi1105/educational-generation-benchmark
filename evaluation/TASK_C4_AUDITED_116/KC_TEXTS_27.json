@@ -1,0 +1,193 @@
+{
+  "g_k1": {
+    "title": "LES OUTILS GRAPHIQUES",
+    "source_pages": [
+      2
+    ],
+    "kc_text": "La doctrine ENSOSP fixe un langage graphique commun pour transmettre les informations opérationnelles relatives au sinistre. Les outils graphiques facilitent le recueil, la transmission et la compréhension des informations. Exemple illustré : FPT NLR schématisé par un rectangle rouge et une désignation textuelle."
+  },
+  "g_k2": {
+    "title": "LA FORME",
+    "source_pages": [
+      3
+    ],
+    "kc_text": "Un objet graphique est caractérisé par sa position et son identité graphique. Implantation ponctuelle, linéaire ou surfacique. La forme exprime le type d’objet. Carré ou rectangle : moyens et infrastructures de secours. Triangle pointant vers le haut : avertissement, danger ou actions SP. Surface irrégulière : uniformité ou continuum spatial. Cercle : ressource en eau. Étoile : sinistre ou composante particulière du sinistre. Ligne : mouvement ou linéarité. L’identité graphique se combine avec la valeur/état, la couleur et la surcharge."
+  },
+  "g_k3": {
+    "title": "LA COULEUR",
+    "source_pages": [
+      4
+    ],
+    "kc_text": "La couleur exprime des différences thématiques. Noir : couleur par défaut et voies d’accès. Vert : personnes. Rouge : incendie. Bleu : eau. Orange : risques particuliers. Mauve : commandement. La signification d’une couleur s’interprète avec les autres variables visuelles du symbole."
+  },
+  "g_k4": {
+    "title": "L'ÉTAT",
+    "source_pages": [
+      4
+    ],
+    "kc_text": "L’état exprime la dynamique : ce qui est prévu et ce qui est en cours de réalisation. Dans les exemples de flèches, prévu : tracé pointillé ; en cours : tracé continu. Ces deux états ne changent pas la catégorie thématique représentée par la couleur."
+  },
+  "g_k5": {
+    "title": "LA SURCHARGE",
+    "source_pages": [
+      5
+    ],
+    "kc_text": "La surcharge renforce la signification d’une figure. Elle peut être textuelle (abréviation, sigle, groupe horaire) ou graphique (marques supplémentaires). Un symbole associe forme, valeur/état, couleur et surcharge. Les niveaux de complexité illustrés passent de forme+orientation à forme+orientation+couleur. Le choix du niveau de complexité dépend de la nature de l’opération, du profil de l’utilisateur et des moyens disponibles."
+  },
+  "g_k_principles": {
+    "title": "Principe de la cartographie opérationnelle",
+    "source_pages": [
+      6,
+      7
+    ],
+    "kc_text": "La cartographie opérationnelle superpose six plans thématiques : (I) analyse et schématisation de la zone d’intervention, (II) localisation du sinistre/centres et zones d’action, (III) actions, (IV) moyens, (V) organisation/sectorisation opérationnelle, (VI) données contextuelles. Chaque centre ou zone d’action est rattaché à un secteur fonctionnel ou géographique. Chaque action est associée à un seul centre ou une seule zone d’action, mais un centre/zone peut concerner plusieurs actions. Les moyens d’intervention terrestres engagés ou à engager sont rattachés aux actions ; une action et un moyen peuvent avoir plusieurs rattachements réciproques. Exception : les moyens aériens, moyens de commandement/coordination et ressources/infrastructures/logistiques ne font pas l’objet d’un rattachement à une action. Les données contextuelles comprennent paramètres météorologiques, astronomiques et éléments d’habillage de la carte. Pages 6–7."
+  },
+  "g_k12": {
+    "title": "Cheminements",
+    "source_pages": [
+      8
+    ],
+    "kc_text": "Les cheminements matérialisent les voies empruntées par les moyens de secours et les personnes. Accès : ligne noire avec points pleins. Rocade : deux lignes parallèles noires. Pénétrante : flèche droite noire. Évolution limitée : segment avec soulignement pointillé. Sens de circulation : flèche sur une ligne. Circulation impossible : ligne barrée d’une croix."
+  },
+  "g_k13": {
+    "title": "Prises d'eau",
+    "source_pages": [
+      9
+    ],
+    "kc_text": "Les prises d’eau sont des points d’alimentation pour les moyens terrestres ou aériens. Prise pérenne : disque bleu plein (PI, BI, ASP). Prise non pérenne : disque dont la moitié supérieure est blanche et l’autre bleue (PI, BI, ASP, CIT). Point de ravitaillement ABE et HBE : cercle bleu avec deux triangles blancs opposés. Un type précis peut être désigné par une annotation textuelle, par exemple PI100."
+  },
+  "g_k14": {
+    "title": "Morphologie de la zone d'intervention",
+    "source_pages": [
+      9
+    ],
+    "kc_text": "La morphologie décrit l’élévation et la déclivité de la zone d’intervention. L’élévation est indiquée soit en mètres par point coté, soit par nombre de niveaux relativement au niveau 0 (par exemple R+2). La déclivité est indiquée par une flèche orientée vers le bas de la pente ; des marques transversales distinguent une pente faible (une), modérée (deux) ou forte (trois)."
+  },
+  "g_k15": {
+    "title": "Sources de danger",
+    "source_pages": [
+      10
+    ],
+    "kc_text": "Les sources de danger sont des entités humaines ou matérielles constituant un danger réel pour personnes, biens ou environnement. Symbole de base : triangle orienté vers le haut. Catégories thématiques : vert pour humain, rouge pour incendie, orange pour risques particuliers, bleu pour eau. Un type peut être précisé par une lettre, notamment N nucléaire, R radiologique, B biologique, C chimique, E électrique ; ne pas confondre catégorie et type."
+  },
+  "g_k16": {
+    "title": "Points sensibles",
+    "source_pages": [
+      10
+    ],
+    "kc_text": "Les points sensibles sont des entités humaines ou matérielles présentant un enjeu réel de protection (par exemple regroupement de personnes à mobilité réduite ou stockage de produits à forte valeur). Symbole de base : triangle orienté vers le bas. Catégories : vert humain, rouge incendie, orange risques particuliers, bleu eau. Des types N, R, B, C et E peuvent préciser un danger associé ; distinguer catégorie et type."
+  },
+  "g_k17": {
+    "title": "2.1 CENTRES ET ZONES D'ACTION",
+    "source_pages": [
+      11
+    ],
+    "kc_text": "Le sinistre affecte une ou plusieurs portions de la zone d’intervention. Un centre d’action est ponctuel (étoile ou repère croisé avec rectangle), une zone d’action est surfacique (contour fermé irrégulier en pointes). Couleurs : vert humain, rouge incendie, orange risques particuliers, bleu eau. Centre/zone évoluent au fil des actions et des moyens. Des identifiants, localisations et caractéristiques peuvent être écrits à côté de la figure (exemple Lycée, victimes, bouteilles de gaz)."
+  },
+  "g_k18": {
+    "title": "2.2 Développement du sinistre",
+    "source_pages": [
+      12
+    ],
+    "kc_text": "Le développement du sinistre est surtout représenté pour les feux de forêt ; il dépend du vent et du relief. Axe principal de propagation lié au vent : flèche rouge pleine. Axe secondaire lié au relief : flèche rouge à intérieur blanc. Les formes de l’emprise évoluent dans le temps ; exemples T+30, T+1h et T+1h30."
+  },
+  "g_k19": {
+    "title": "Reconnaissances",
+    "source_pages": [
+      13
+    ],
+    "kc_text": "Les reconnaissances sont des actions d’exploration initiale afin de recueillir des informations et définir des actions adaptées. Le symbole est une flèche comportant une portion en créneau. Prévue : tracé pointillé. En cours : trait continu. Catégories : vert secours à personne, rouge extinction/incendie, orange risques particuliers, bleu eau. Les reconnaissances peuvent être globales ou thématiques, positionnées dans l’espace et planifiées dans le temps."
+  },
+  "g_k20": {
+    "title": "Actions offensives",
+    "source_pages": [
+      14,
+      15
+    ],
+    "kc_text": "Les actions offensives cherchent à prendre le devant sur la cinétique du sinistre. Symbole : flèche droite. État prévu : flèche pointillée ; en cours : flèche continue. Couleurs : vert secours à personnes, rouge incendie, orange risques particuliers, bleu eau. L’action peut être globale ou ciblée, localisée, combinée avec d’autres actions et planifiée (identifiant, horaire, abréviation). Page 15 : largage HBE par trois cercles se chevauchant ; largage ABE par trois ellipses allongées ; bleu = eau, orange = retardant. Ces symboles de largage sont propres à des actions offensives aériennes."
+  },
+  "g_k21": {
+    "title": "Actions défensives",
+    "source_pages": [
+      16
+    ],
+    "kc_text": "Les actions défensives visent à faire barrage à la progression d’un phénomène dynamique. Elles peuvent être linéaires (ligne de triangles vers le haut) ou périmétrales (cercle avec pointes autour). Prévu : triangles/pointes évidés ; en cours : remplis. Couleurs thématiques : vert personnes/sanitaire, rouge incendie, orange risques particuliers, bleu eau. Elles sont positionnées et planifiées dans le temps."
+  },
+  "g_k22": {
+    "title": "Poste de commandement",
+    "source_pages": [
+      17
+    ],
+    "kc_text": "Le poste de commandement est représenté par un rectangle sur hampe comme un drapeau, en mauve. Prévu : contour pointillé ; actif : contour continu. Niveau : trois points = PC de colonne/2 fonctions, quatre points = PC de site. Les points de niveau se placent à l’extérieur du symbole, au-dessus ou au-dessous ; ils ne doivent pas être confondus avec les pointillés d’état. Lieu ou nom du PC peut figurer au centre."
+  },
+  "g_k23": {
+    "title": "Point de transit",
+    "source_pages": [
+      17
+    ],
+    "kc_text": "Le point de transit est représenté par un cercle sur une ligne fléchée, en mauve. Prévu : traits/contours pointillés ; actif : traits continus. Un identifiant textuel, par exemple 1 ou 2, peut accompagner le symbole."
+  },
+  "g_k24": {
+    "title": "Moyens d'intervention terrestres sapeurs-pompiers",
+    "source_pages": [
+      18
+    ],
+    "kc_text": "Moyens d’intervention terrestres sapeurs-pompiers : rectangle avec traits verticaux au-dessus. Un trait : véhicule ; deux : groupe ; trois : colonne. Moyens prévus : contour pointillé ; actifs : continu. Catégories : vert secours à personne/sanitaire ; rouge incendie ; orange risques particuliers ; bleu eau. Les sigles à l’intérieur peuvent indiquer type, origine ou rattachement."
+  },
+  "g_k25": {
+    "title": "Moyens d'intervention terrestres non sapeurs-pompiers",
+    "source_pages": [
+      18
+    ],
+    "kc_text": "Moyens terrestres non sapeurs-pompiers : rectangle sans traits verticaux supérieurs indiquant véhicule/groupe/colonne SP. Prévu : contour pointillé ; actif : contour continu. Catégories : vert personnes/sanitaire, rouge incendie, orange risques particuliers, bleu eau. Une indication textuelle peut renseigner l’origine/rattachement ou le type de moyen."
+  },
+  "g_k26": {
+    "title": "Moyens d'intervention aériens",
+    "source_pages": [
+      19
+    ],
+    "kc_text": "Les moyens d’intervention aériens sont représentés par un rectangle horizontal avec deux triangles latéraux dont les pointes se joignent au centre (forme de nœud papillon). Prévu : cadre pointillé et triangles non remplis ; actif : cadre continu et triangles remplis. Couleurs : vert sanitaire/sauvetage ; rouge lutte contre incendie ; orange risques particuliers ; bleu lié à l’eau ; mauve commandement/observation. Le type, par exemple CL 415, se note sous le cadre."
+  },
+  "g_k27": {
+    "title": "4.3 RESSOURCES, INFRASTRUCTURES ET LOGISTIQUES OPÉRATIONNELLES",
+    "source_pages": [
+      19
+    ],
+    "kc_text": "Les ressources, infrastructures et logistiques opérationnelles appartiennent à une catégorie distincte des moyens d’intervention. Le symbole est un rectangle avec une barre horizontale au-dessus. Prévu : contour pointillé ; actif : continu. Les abréviations textuelles précisent le type (exemples CH hôpital, P parking, H héliport, PRV point de regroupement des victimes) ; la couleur indique la catégorie thématique (vert personnes/sanitaire, rouge incendie, orange risques particuliers, bleu eau)."
+  },
+  "g_k28": {
+    "title": "5.1 SECTORISATION GÉOGRAPHIQUE",
+    "source_pages": [
+      20
+    ],
+    "kc_text": "La sectorisation géographique délimite spatialement des secteurs avec un polygone mauve au contour alternant traits et points. Une surcharge externe indique le niveau de commandement : deux points chef de groupe, trois chef de colonne, quatre chef de site. Les points se placent hors du polygone ; ne pas les confondre avec les marques constituant le tracé du contour."
+  },
+  "g_k29": {
+    "title": "5.2 SECTORISATION FONCTIONNELLE",
+    "source_pages": [
+      20
+    ],
+    "kc_text": "La sectorisation fonctionnelle représente un secteur par un losange : partie inférieure mauve, partie supérieure codant la catégorie fonctionnelle. Exemples de catégories : vert secours à personnes/sanitaire, rouge incendie, orange risques particuliers, bleu eau. Le niveau de commandement est indiqué par des points alignés hors du losange : deux chef de groupe, trois chef de colonne, quatre chef de site."
+  },
+  "g_k30": {
+    "title": "6.1 DONNÉES CONTEXTUELLES",
+    "source_pages": [
+      21
+    ],
+    "kc_text": "Les données contextuelles relèvent de l’habillage et de l’information associée à la carte. Orientation : flèche vers le nord avec N. Vent : flèche indiquant direction et force, par exemple 20 km/h. Temporalité : barre avant le groupe horaire 1500 = à partir de 15h00 ; barre après 1500 = jusqu’à 15h00."
+  },
+  "g_k31": {
+    "title": "CARTOGRAPHIE OPÉRATIONNELLE - exemple feu urbain",
+    "source_pages": [
+      22
+    ],
+    "kc_text": "Exemple composé de cartographie opérationnelle d’un feu urbain. L’illustration rassemble des voies d’accès noires, des limites de secteurs mauves, une zone de sinistre figurée en rouge, des points d’eau bleus, des moyens et des actions. L’exemple montre des inscriptions de secteur et des repères spatiaux. Les positions et associations sont propres au scénario, non des règles générales supplémentaires."
+  },
+  "g_k32": {
+    "title": "CARTOGRAPHIE OPÉRATIONNELLE - exemple feu de forêt",
+    "source_pages": [
+      23
+    ],
+    "kc_text": "Exemple composé de cartographie opérationnelle d’un feu de forêt sur fond de terrain avec limites, annotations, moyens et actions. Le plan combine des marques rouges de sinistre/développement, des secteurs et des symboles opérationnels. L’image contient des libellés et données topographiques à interpréter visuellement ; ne pas établir de nouvelle convention générale en se fondant sur cet exemple seul."
+  }
+}

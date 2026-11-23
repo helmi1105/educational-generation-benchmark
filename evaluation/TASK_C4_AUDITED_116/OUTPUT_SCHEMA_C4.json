@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Task C4: evidence-audited cross-KC lesson and QCM generation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "lesson",
+    "qcm"
+  ],
+  "properties": {
+    "lesson": {
+      "type": "string",
+      "minLength": 80
+    },
+    "qcm": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "question",
+        "options",
+        "correct_option",
+        "explanation",
+        "kc_ids"
+      ],
+      "properties": {
+        "question": {
+          "type": "string",
+          "minLength": 20
+        },
+        "options": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "properties": {
+            "A": {
+              "type": "string",
+              "minLength": 3
+            },
+            "B": {
+              "type": "string",
+              "minLength": 3
+            },
+            "C": {
+              "type": "string",
+              "minLength": 3
+            },
+            "D": {
+              "type": "string",
+              "minLength": 3
+            }
+          }
+        },
+        "correct_option": {
+          "enum": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        "explanation": {
+          "type": "string",
+          "minLength": 20
+        },
+        "kc_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "maxItems": 4,
+          "uniqueItems": true,
+          "description": "Only KCs genuinely used in the question. Every ID must come from the supplied current_kc or related_kcs; do not list all merely because they were supplied."
+        }
+      }
+    }
+  }
+}
